@@ -13,6 +13,9 @@ To use MongoDB:
     
     - To Run MongoDB:
         - cd ~/mongo/bin/
-        - ./mongod --dbpath ~/mongo-data 
+        - ./mongod --dbpath ~/mongo-data
+
+    - Installing Mongoose
+        - npm install mongoose --save 
 
 
