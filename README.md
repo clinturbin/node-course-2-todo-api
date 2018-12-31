@@ -16,6 +16,9 @@ To use MongoDB:
         - ./mongod --dbpath ~/mongo-data
 
     - Installing Mongoose
-        - npm install mongoose --save 
+        - 
+
+Packages to install for testing:
+    - npm install expect mocha nodemon supertest --save-dev
 
 
