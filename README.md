@@ -21,4 +21,14 @@ To use MongoDB:
 Packages to install for testing:
     - npm install expect mocha nodemon supertest --save-dev
 
-
+Deploy API to Heroku
+    - In terminal create a new heroku app
+        - heroku create
+    - In terminal tell app we want to use mLab  (mongo lab)
+        - heroku addons:create mongolab:sandbox
+    - (Optional: get a list of configuration variables)
+        - heroku config
+    - Modify mongoose.js file to either connect to heroku or local machine
+        - mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/TodoApp');
+    - In terminal:
+        - 
