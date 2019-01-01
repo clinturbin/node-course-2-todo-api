@@ -31,4 +31,8 @@ Deploy API to Heroku
     - Modify mongoose.js file to either connect to heroku or local machine
         - mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/TodoApp');
     - In terminal:
-        - 
+        - commit changes, the pit push to github
+        - push application to heroku
+            - git push heroku master
+            (herko logs => show you the server logs for your app)
+            - heroku open (opens app in browser)
