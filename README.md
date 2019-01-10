@@ -36,3 +36,10 @@ Deploy API to Heroku
             - git push heroku master
             (herko logs => show you the server logs for your app)
             - heroku open (opens app in browser)
+
+Managing Environmet variables to Heroku
+    - In terminal:
+        - heroku config
+        - heroku config:set JWT_SECRET=entersomerandomtexthere
+        - heroku config:get JWT_SECRET
+        - heroku config:unset JWT_SECRET (this gets rid of environemt variable)
